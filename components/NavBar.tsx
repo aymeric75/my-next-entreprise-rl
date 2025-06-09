@@ -23,7 +23,29 @@ export default function NavBar() {
         </div>
         {/* Mobile menu: toggle button */}
         <div className="md:hidden">
-          {/* Insert Radix UI Popover/Menu here */}
+
+          import * as Popover from '@radix-ui/react-popover';
+
+          <Popover.Root>
+            <Popover.Trigger aria-label="Open menu">
+              <svg className="w-6 h-6" /* icon */>…</svg>
+            </Popover.Trigger>
+          
+            <Popover.Content className="bg-white shadow-lg rounded-md p-4">
+              <div className="flex flex-col space-y-2">
+                {links.map((l) => (
+                  <Link key={l.href}
+                        href={l.href}
+                        className="text-gray-700 hover:text-gray-900">
+                    {l.label}
+                  </Link>
+                ))}
+              </div>
+            </Popover.Content>
+          </Popover.Root>
+
+
+          
         </div>
       </div>
     </nav>
