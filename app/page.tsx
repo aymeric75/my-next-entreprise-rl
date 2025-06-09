@@ -30,7 +30,7 @@ export default function Web() {
               Next.js Enterprise Boilerplate
             </h1>
             <p className="mb-6 max-w-2xl font-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">
-              Jumpstart your enterprise project with our feature-packed, high-performance Next.js boilerplate!
+              Jumpstarttt your enterprise project with our feature-packed, high-performance Next.js boilerplate!
               Experience rapid UI development, AI-powered code reviews, and an extensive suite of tools for a smooth and
               enjoyable development process.
             </p>
