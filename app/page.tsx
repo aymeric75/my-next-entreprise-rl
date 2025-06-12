@@ -2,6 +2,7 @@ import { Metadata } from "next"
 import { Button } from "components/Button/Button"
 import HeroVideo from 'components/HeroVideo'
 import HowItWorks from 'components/HowItWorks'
+import PlugAndEarnSection from 'components/PlugAndEarnSection'
 import { LP_GRID_ITEMS } from "lp-items"
 
 export const metadata: Metadata = {
@@ -26,6 +27,7 @@ export default function Web() {
     <>
       <HeroVideo />
       <HowItWorks />
+      <PlugAndEarnSection />
       <section className="bg-white dark:bg-gray-900">
         <div className="mx-auto grid max-w-(--breakpoint-xl) px-4 py-8 text-center lg:py-16">
           <div className="mx-auto place-self-center">
