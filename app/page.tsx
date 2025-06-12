@@ -26,7 +26,7 @@ export default function Web() {
   return (
     <>
       <HeroVideo />
-      <HowItWorks />
+      
       <PlugAndEarnSection />
       <section className="bg-white dark:bg-gray-900">
         <div className="mx-auto grid max-w-(--breakpoint-xl) px-4 py-8 text-center lg:py-16">
