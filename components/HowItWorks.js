@@ -7,7 +7,7 @@ const steps = [
   { number: 4, label: 'Enjoy your profits' }
 ]
 
-const HowItWorksVertical = () => (
+const HowItWorks = () => (
   <section className="py-24 bg-white text-gray-900">
     <div className="max-w-xl mx-auto px-4 text-center">
       <h2 className="text-3xl md:text-4xl font-bold mb-16">
@@ -42,4 +42,4 @@ const HowItWorksVertical = () => (
   </section>
 )
 
-export default HowItWorksVertical
+export default HowItWorks
