@@ -1,6 +1,6 @@
 import { Metadata } from "next"
 import { Button } from "components/Button/Button"
-
+import HeroVideo from 'components/HeroVideo'
 import { LP_GRID_ITEMS } from "lp-items"
 
 export const metadata: Metadata = {
