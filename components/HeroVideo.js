@@ -10,7 +10,7 @@ const HeroVideo = () => (
       className="video-bg"
       poster="/videos/header-bg-placeholder.jpg"
     >
-      <source src="/videos/header-bg.mov" type="video/mp4" />
+      <source src="/videos/header-bg.mp4" type="video/mp4" />
       {/* Consider converting to MP4/WebM for better browser support */}
       Your browser doesn't support the video tag.
     </video>
